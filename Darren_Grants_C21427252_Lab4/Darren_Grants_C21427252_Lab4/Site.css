@@ -1,0 +1,59 @@
+body{
+    background-color: #777777;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: blueviolet;
+    width: 85%;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+header{
+    background-color: burlywood;
+    text-align: center;
+    min-height: 100px;
+}
+
+nav{
+    padding: 10px;
+    text-align: right;
+}
+
+a:visited{
+    color:crimson;
+}
+
+h1{
+    color: cornsilk;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+footer{
+    background-color: burlywood;
+    text-align: center;
+    min-height: 40px;
+    
+}
+
+h6{
+    font-size: 15px;
+    color:cornsilk;
+    padding: 15px;
+
+}
+
+#content{
+    min-height: 600px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+h3{
+    color:goldenrod;
+    font-weight: 200;
+    font-style: italic;
+}

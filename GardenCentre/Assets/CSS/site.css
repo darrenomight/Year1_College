@@ -1,0 +1,82 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    width: 60%;
+    min-height: 600px;
+    background-color: #EEEEEE;
+    margin: auto;
+    border: 1px black solid;
+    
+}
+
+header div {
+    height: 200px;
+    background-image: url("../Images/Header.png");
+}
+
+header h1{
+    color: green;
+    font-size: 50px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: purple;
+}
+
+header li{
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: plum;
+}
+
+.textwithimage {
+    margin: 10px;
+}
+
+.textwithimage p {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+
+.textwithimage img {
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30%;
+}
+
+.gardenimages img{
+    display: inline-block;
+    width: 25%;
+    margin: 4%;
+    border-radius: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: purple;
+    padding: 5px;
+    color: white;
+}
